@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form align="right">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname"><br>
+        <input type="reset" value="Delete">
+    </form>
+    <hr>
+    <form>
+        <input type="radio" name="gander" value="male" checked>Male
+        <br>
+        <input type="radio" name="gander" value="female">Female
+        </form> 
+        <hr>
+    <select name="cars" >
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+    </select>
+    <hr>
+    <textarea name="message" rows="10" cols="30" >
+        The cat was playing in the garden.
+    </textarea>
+    <form align="right">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+    </form>
+        <hr>
+    <form action="">
+        First name:<br>
+        <input type="text" name="firstname" value="ali">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname" value="sami">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+        <hr>
+    <form align="right">
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a 
+        bike
+        <br>
+        <input type="checkbox" name="vehicle2" value="Car"checked> I have a 
+        car 
+    </form>
+        <hr>
+        <input type="button" onclick="alert('Thank you')" value="Thank">
+        <hr>
+    <form align="right">
+        <input type="number" name="quantity" min="1" max="50">
+    </form>
+        <hr>
+    <form align="center" action="page.php" oninput="x.value=parseInt(a.value)+parseInt(b.value) ">
+        Num1
+        <input type="number" id="a" name="a" value="50">+
+        Num2 <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+        <br><br>
+        <input type="submit">
+    </form>
+        <hr>
+    <form >
+        <input type="email" required>
+        <input type="text" required>
+        <input type="submit" value="MM">
+    </form>
+</body>
+</html>
